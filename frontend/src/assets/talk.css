@@ -1,0 +1,155 @@
+.name_right {
+    margin-left: 510px;
+}
+
+.name_left {
+    margin-left: 10px;
+}
+
+.content_right {
+
+    word-wrap: break-word;
+    width: 50%;
+    margin-left: 250px;
+    font-size: 15px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.content_left {
+    word-wrap: break-word;
+    width: 50%;
+    margin-left: 60px;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.url_right {
+    margin-left: 15px;
+
+}
+
+.url-left {
+    margin-left: 15px;
+
+}
+
+::-webkit-scrollbar {
+    height: 10px !important;
+    width: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    border-style: dashed;
+    background-color: #DCE1E6;
+    border-color: #e2242400;
+    border-width: 1px;
+    background-clip: padding-box;
+}
+
+
+
+::-webkit-scrollbar-track { /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    /*border-radius: 10px;*/
+    background: white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(157, 165, 183, 0.7)
+}
+
+
+.word-break {
+    word-break: break-all;
+}
+
+
+.infinite-list-wrapper p {
+    text-align: center;
+}
+
+
+.show-input-content {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+.icon {
+    width: 2em;
+    height: 2em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.talk {
+    border: 1px solid #DCE1E6;
+    width: 940px;
+    height: 670px;
+    margin: 0 auto;
+}
+
+.talk-header {
+    width: 100%;
+    height: 56px;
+    z-index: 1;
+    background-color: rgba(76, 88, 247, 0.792);
+    border-bottom: 1px solid #DCE1E6;
+}
+
+.talk-header-icon {
+    padding-left: 835px;
+}
+
+/* 测边框 */
+.talk-sidebar{
+    border: 1px solid #DCE1E6;
+    height: 614px;
+    width: 300px;
+}
+
+.talk-content {
+    overflow-y: auto;
+    height: 350px;
+    background-color: rgb(247, 247, 247);
+}
+
+.talk-footer{
+    height: 85px;
+    border: 1px solid #DCE1E6;
+}
+
+.talk-message {
+    height: 35px;
+    display: flex;
+}
+
+.talk-message-face {
+    width: 40px;
+    padding-left: 2px;
+    padding-top: 10px;
+}
+
+.talk-message-content {
+    padding-top: 0px;
+    margin-left: -15px;
+    /* padding-left: 10px; */
+    width: 560px;
+
+}
+
+.talk-message-send {
+    padding-top: 60px;
+    margin-left: -10px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
